@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 
-
-image_name = input('変えたい画像の絶対urlを入れてください')
+print('変えたい画像の絶対urlを入れてください')
+image_name = input()
 image_url = image_name
 im_gray_url = image_name+'_gray.png'
 new_im_gray_url = image_name+'_gray.png'
